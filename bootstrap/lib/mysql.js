@@ -15,12 +15,12 @@ const pool = mysql.createPool({
 
 module.exports = pool;
 
-var connection = mysql2.createConnection({
-    host: config.db.mysql.host,
-    user: config.db.mysql.user,
-    password: config.db.mysql.password,
-    database: config.db.mysql.database
-});
+// var connection = mysql2.createConnection({
+//     host: config.db.mysql.host,
+//     user: config.db.mysql.user,
+//     password: config.db.mysql.password,
+//     database: config.db.mysql.database
+// });
 
-connection.connect();
-module.exports = connection;
+// connection.connect();
+// module.exports = connection;
